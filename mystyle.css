@@ -1,0 +1,23 @@
+#list .fila2 {
+    align-content: center;
+}
+#list .fila {
+    width:580px;
+    margin-bottom:5px;
+}
+#list .fila>div {
+    width:90px;
+    height:130px;
+    border:1px solid #808080;
+    border-radius:5px;
+    margin-left:-50px;
+    background:white;
+    display:inline-block;
+    padding:5px;
+}
+#list .fila>div>span {
+    font-size:12px;
+}
+#list .fila>div:first-child {
+    margin-left:0px;
+}
